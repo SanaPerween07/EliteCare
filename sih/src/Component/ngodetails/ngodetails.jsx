@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Navbar from "../navbar/navbar";
-import axios from "axios";
 import { useLocation, useNavigate } from 'react-router-dom';
 import { endPoints, axiosInstance} from '../../services/api';
 
